@@ -1,0 +1,65 @@
+.wcev-container {
+    max-width: 500px;
+    margin: 2em auto;
+    padding: 2em;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.wcev-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.wcev-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.wcev-form-group label {
+    font-weight: 600;
+    color: #333;
+}
+
+.wcev-form-group input {
+    padding: 0.8em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.wcev-button {
+    background: #7f54b3;
+    color: white;
+    padding: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.wcev-button:hover {
+    background: #6f3da0;
+}
+
+.wcev-messages {
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 4px;
+}
+
+.wcev-messages.error {
+    background: #fff2f2;
+    color: #d63638;
+    border: 1px solid #ffcece;
+}
+
+.wcev-messages.success {
+    background: #f0f8f0;
+    color: #2e7d32;
+    border: 1px solid #c8e6c9;
+}
